@@ -7,6 +7,12 @@
 *.o
 *.obj
 
+# Source Ignore directories 
+.vs/
+.git/
+x64/
+
+
 # Precompiled Headers
 *.gch
 *.pch
