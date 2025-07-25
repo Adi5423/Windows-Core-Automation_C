@@ -102,24 +102,6 @@ const stdwstring notepad = L"C:\Windows\System32\notepad.exe"; ProcessHelperLaun
 ## License
 
 [MIT License](LICENSE)
-
----
-
-**LinkedIn Post Inspiration:**  
-Just hit a major milestone on my Windows automation project — built *completely from scratch* in pure C++ using the native Windows API (`windows.h`)!  
-No wrappers. No dependencies. No high-level abstractions.  
-Just raw `Win32`, `SendInput`, `EnumWindows`, `CreateProcessW`, and friends — coded directly.
-
-What I built:
-- A low-level **keyboard and mouse simulator** using `SendInput`
-- A *process launcher* via `CreateProcessW`
-- A *window manager* that can find, enumerate, and interact with windows by class/title
-- All of this modularized into a clean architecture, no precompiled headers or external packages
-
-C++ is a bit exhausting sometimes, but the end results always satisfy by core logics and perfect implementation of everything.  
-Still need to implement a lot of error checks and features overall, but the base is ready.  
-This is just the beginning — but such a cool feeling when you bypass all layers and talk directly to the OS.
-
 ---
 
 *For questions or contributions, feel free to open an issue or pull request!*
